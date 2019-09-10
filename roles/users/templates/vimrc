@@ -1,0 +1,20 @@
+syntax on
+
+set backspace=2
+set tabstop=4
+set fileencodings=utf-8,euc-jp,sjis,iso-2022-jp
+set shiftwidth=4
+
+set list
+set listchars=tab:»-,trail:-,extends:»,precedes:«
+
+set laststatus=2
+set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
+set fileformats=unix
+
+highlight JpSpace cterm=underline ctermfg=Blue guifg=Blue
+au BufRead,BufNew * match JpSpace / /
+
+set history=100
+set hidden
+set title

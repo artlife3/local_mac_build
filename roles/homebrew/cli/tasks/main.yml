@@ -1,0 +1,9 @@
+- name: Update Homebrew
+  homebrew:
+    state: latest
+    update_homebrew: yes
+
+- name: Install Homebrew Packages
+  homebrew:
+    name: "{{ brew_packages }}"
+    state: "present"

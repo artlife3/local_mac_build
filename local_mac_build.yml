@@ -1,0 +1,10 @@
+- name: Mac Build
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  roles:
+#     - homebrew/tap
+#     - homebrew/applications
+#    - homebrew/cli
+#    - users
+    - drush

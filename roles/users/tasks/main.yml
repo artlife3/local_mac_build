@@ -1,0 +1,11 @@
+- name: Install ~/git-completion
+  copy: src=git-completion
+               dest=~/git-completion
+
+- name: Set ~/.bach_profile
+  template: src=bash_profile
+        dest=~/.bash_profile
+
+- name: Set ~/.vimrc
+  template: src=vimrc
+        dest=~/.vimrc

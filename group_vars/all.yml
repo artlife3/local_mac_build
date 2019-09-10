@@ -1,4 +1,22 @@
-homebrew_packages: [
-  'htop',
-]
-
+brew_taps:
+  - homebrew/core
+  - caskroom/cask
+brew_cask_apps:
+  - docker
+  - firefox
+  - google-chrome
+  - google-japanese-ime
+  - iterm2
+brew_packages:
+  - bash-completion
+  - docker-compose
+  - docker-machine
+  - git
+  - tree
+  - wget
+  - links
+  - telnet
+  - colordiff
+  - vim
+  - multitail
+drush_version: 8.1.16

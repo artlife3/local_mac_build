@@ -1,8 +1,0 @@
-# update homebrew
-- name: update homebrew
-  homebrew: update_homebrew=yes
-
-# brew instal
-- name: install homebrew packages
-  debug: var=item
-  with_items: homebrew_packages

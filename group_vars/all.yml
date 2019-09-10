@@ -7,11 +7,29 @@ brew_cask_apps:
   - google-chrome
   - google-japanese-ime
   - iterm2
+  - appcleaner
+  - atom
+  - sequel-pro
+  - sublime-text
+  - macdown
+  - evernote
+  - skype
+  - slack
+  - xmind
+  - sourcetree
+  - mysqlworkbench
+  - coteditor
+  - eclipse-php
+  - free-ruler
+  - near-lock
+  - visual-studio-code
 brew_packages:
   - bash-completion
   - docker-compose
   - docker-machine
   - git
+  - svn
+  - mercurial
   - tree
   - wget
   - links
@@ -19,4 +37,10 @@ brew_packages:
   - colordiff
   - vim
   - multitail
+  - htop
+  - htree
+  - vagrant
+  - virtualbox
+#   - pandoc
+#   - vagrant-manager
 drush_version: 8.1.16

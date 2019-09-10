@@ -37,3 +37,5 @@ export HISTCONTROL=ignoredups
 HISTTIMEFORMAT='%Y-%m-%d %T '; export HISTTIMEFORMAT
 
 alias ll='ls -la'
+alias vi='vim'
+alias diff='colordiff'

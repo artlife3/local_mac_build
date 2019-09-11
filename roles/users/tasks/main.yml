@@ -1,6 +1,6 @@
 - name: Install ~/git-completion
   copy: src=git-completion
-               dest=~/git-completion
+               dest=~/
 
 - name: Set ~/.bach_profile
   template: src=bash_profile

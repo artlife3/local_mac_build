@@ -5,14 +5,16 @@
     version: "{{ drush_version }}"
   ignore_errors: true
 
-- name: Composer insall for Drush
-  composer:
-    command: install
-    working_dir: "~/drush/"
-
 - name: Add to ~/.bash_profile
   lineinfile:
     dest=~/.bash_profile
     line={{ item }}
   with_items:
     - "alias drush='~/drush/drush'"
+
+- name: Composer insall for Drush
+  composer:
+    command: install
+    working_dir: "~/composer"
+
+

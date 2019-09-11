@@ -1,5 +1,6 @@
 # https://docs.ansible.com/ansible/2.8/reference_appendices/interpreter_discovery.html
 - name: Homebrew tap
   homebrew_tap:
-    name: "{{ brew_taps }}"
+    name: "{{ item }}"
     state: "present"
+  with_items: "{{ brew_taps }}"

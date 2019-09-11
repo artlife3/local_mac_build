@@ -23,6 +23,8 @@ brew_cask_apps:
   - free-ruler
   - near-lock
   - visual-studio-code
+  - vagrant
+#  - virtualbox
 brew_packages:
   - bash-completion
   - docker-compose
@@ -38,9 +40,6 @@ brew_packages:
   - vim
   - multitail
   - htop
-  - htree
-  - vagrant
-  - virtualbox
 #   - pandoc
 #   - vagrant-manager
 drush_version: 8.1.16

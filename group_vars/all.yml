@@ -15,6 +15,7 @@ brew_cask_apps:
   - evernote
   - skype
   - slack
+  - skitch
   - xmind
   - sourcetree
   - mysqlworkbench

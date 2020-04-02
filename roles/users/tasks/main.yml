@@ -1,11 +1,15 @@
 - name: Install ~/git-completion
   copy: src=git-completion
-               dest=~/
+    dest=~/
 
 - name: Set ~/.bach_profile
   template: src=bash_profile
-        dest=~/.bash_profile
+    dest=~/.bash_profile
 
 - name: Set ~/.vimrc
   template: src=vimrc
-        dest=~/.vimrc
+    dest=~/.vimrc
+
+- name: Set ~/my.cnf
+  template: src=client_my.cnf
+    dest=~/.my.cnf

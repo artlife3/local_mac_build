@@ -1,0 +1,9 @@
+[client]
+host=127.0.0.1
+#- database=login
+user=root
+password=root
+
+[mysql]
+prompt=\u@\h:[\d]>\_
+

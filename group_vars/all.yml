@@ -1,11 +1,12 @@
 brew_taps:
   - homebrew/core
-  - caskroom/cask
+#  - caskroom/cask
 brew_cask_apps:
   - docker
   - firefox
   - google-chrome
   - google-japanese-ime
+  - google-drive-file-stream
   - iterm2
   - appcleaner
   - atom
@@ -25,7 +26,7 @@ brew_cask_apps:
   - near-lock
   - visual-studio-code
   - vagrant
-#  - virtualbox
+  - virtualbox
 brew_packages:
   - bash-completion
   - docker-compose
@@ -41,6 +42,7 @@ brew_packages:
   - vim
   - multitail
   - htop
-#   - pandoc
-#   - vagrant-manager
+  - mysql
+  - pandoc
+  - vagrant-manager
 drush_version: 8.1.16
